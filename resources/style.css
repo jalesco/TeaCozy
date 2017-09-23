@@ -29,7 +29,7 @@ header {
 nav {
   flex-grow: 2;
   text-decoration: underline;
-
+  color: white;
 }
 
 nav span {
@@ -67,8 +67,6 @@ nav span {
 
 
 /* Locations Section styles  */
-
-
 .locations-section {
   display: block;
   background-image: url(images/img-locations-background.jpg);
@@ -93,4 +91,15 @@ nav span {
   text-align: center;
   opacity: 1;
   margin-right: 40px;
+}
+
+/* Contact Section styles  */
+.contact-section {
+  height: 200px;
+}
+
+/* Copyright Section styles  */
+.copyright-section {
+  text-align: left;
+  margin-left: 10px;
 }
